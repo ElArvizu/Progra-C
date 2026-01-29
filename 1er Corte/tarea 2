@@ -1,0 +1,72 @@
+nombre=input("hola bienvenido a la tarea segunda tarea, podrias indicar cual es tu nombre?") #pregunta cual es el nombre
+print("")#es para dar un espaciado entre lineasd de texto
+
+#solicta algunos datos
+print("hola",nombre, "podrias decirme tu edad?")#pide que escribas 
+edad = int(input("Ingresa tu edad: "))#es para ingresar la edad 
+print("")#es para dar un espaciado entre lineasd de texto
+print(" ahora podrias decirme tu estatura")#pide que escribas
+estatura = float(input("Ingresa tu estatura en metros: "))#pide que ingreses la altura
+print("")#
+print("y  por ultimo podrias decirme tu masa?")#pide que escribas
+masa = float(input("Ingresa tu masa en kg: "))#pide que ingreses la masa
+print("")#es para dar un espaciado entre lineasd de texto
+
+# Calcular peso en newtons
+g = 9.81#gravedad = a 9,81
+peso = masa * g#esta es la formula para convertir los kg en N 
+
+# Saludo
+print(f"Hola",nombre)#es el saludo 
+print("")#es para dar un espaciado entre lineasd de texto
+
+# Mensaje según la edad 
+if edad < 10:#si la edad es = 10
+    print(" yo digo que owwwws estas super peque")#imprime lo que le corresponde
+elif edad < 20:#si la edad es =20
+    print(" yo digo que ya casi un adulto")#imprime lo que le corresponde
+elif edad < 30:#si la edad es = 30
+    print(" yo digo que ya te duele la espalda?")#imprime lo que le corresponde
+elif edad < 40:#si la edad es =40
+    print(" yo digo que ya eres el adulto de la habitacion")#imprime lo que le corresponde
+elif edad < 50:#si la edad es =50
+    print(" yo digo que tsssssssss")#imprime lo que le corresponde
+elif edad < 60:#si la edad es =60
+    print(" yo digo que ya debes ser abuelo")#imprime lo que le corresponde
+elif edad < 70:#si la edad es =70
+    print(" yo digo que ya ve por el inapam")#imprime lo que le corresponde
+elif edad < 80:#si la edad es =80
+    print(" yo digo que ya ve haciendo el testamento")#imprime lo que le corresponde
+elif edad < 90:#si la edad es =90
+    print(" yo digo que como sigues aqui")#imprime lo que le corresponde
+elif edad <= 100:#si la edad es =100
+    print(" yo digo que e we no se trata de vivir mucho")#imprime lo que le corresponde
+else:#dn caso que no dste un numero espcificado dira
+    print(" yo digo que porfa si me entierras no bailes en mi tumba")#imprime lo que le corresponde
+print("")#es para dar un espaciado entre lineasd de texto
+
+
+# Mensaje según la estatura y que
+if estatura < 1.50:#condicional de estatura
+    print(" y que eso es enanismo we")#imprime lo que corresponde
+elif estatura < 1.90:#condicional de estatura
+    print(" y que e we ayudame a bajar algooo")#imprime lo que corresponde
+elif estatura < 2.5:#condicional de estatura
+    print(" y que no ma a ti si te dieron danonino")#imprime lo que corresponde
+else:#
+    print(" y que no mientas por convivir")#en caso de que estatura no se especifique se imprime
+print("")#es para dar un espaciado entre lineasd de texto
+
+# Mensaje según el peso (en newtons)#
+print(f"Tu peso es de {peso:.2f} newtons")#imprime el peso en NEWTONS
+print("")#es para dar un espaciado entre lineasd de texto
+
+if peso < 500:#CONDICIONAL DE PESO
+    print("debes comer mas estas desnutrido we")#imprime lo que corresponde
+elif peso <= 900:#CONDICIONAL DE PESO
+    print("eso shinga sigue asi")#imprime lo que corresponde
+else:#
+    print("ya we deja de comer los pobres tambien tienen derecho a la comida")#EN CASO DE NO ESTRA EL PESO SE IMPIME
+print("")#es para dar un espaciado entre lineasd de texto
+
+print("gracias", nombre, "por contestar mis preguntas, te has ganado un chicle pasa conmigo para tu pago")#AGRADECIMIENTO
