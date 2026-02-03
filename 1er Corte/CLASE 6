@@ -1,0 +1,71 @@
+Cadena="PROGRAMA PARA DECIRTE TU CALIFICACION DE TUS MATERIAS"# nombre del programa
+print(Cadena.center(100))#ES PARA CENTRAR LA CADENA 
+
+nombre=input("HOLA, PARA COMENZAR PODRIAS DECIRME CUAL ES TU NOMBRE") #pregunta cual es el nombre
+print("")#es para dar un espaciado entre lineasd de texto
+
+print("HOLA", nombre, "podrias indicarme cuales son sus califiacaciones en las siguientes materias: ")# ES UN SALUDO 
+
+m = int(input("ingresa tu calificacion de matematicas : "))#es para iNGRESAR MATEMATICAS
+print("")#es para dar un espaciado entre lineasd de texto
+
+f = int(input("ingresa tu calificacion de fisica : "))#es para ingresar FISICA
+print("")#es para dar un espaciado entre lineasd de texto
+
+p = int(input("ingresa tu calificacion de programacion : "))#es para ingresar PROGRAMACION 
+print("")#es para dar un espaciado entre lineasd de texto
+
+h = int(input("ingresa tu calificacion de historia : "))#es para ingresar HISTORIA
+print("")#es para dar un espaciado entre lineasd de texto
+
+g = int(input("ingresa tu calificacion de geografia : "))#es para ingresar GEOGRAFIA
+print("")#es para dar un espaciado entre lineasd de texto
+
+i = int(input("ingresa tu calificacion de ingles : "))#es para ingresar INGLES
+print("")#es para dar un espaciado entre lineasd de texto
+
+fran = int(input("ingresa tu calificacion de frances : "))#es para ingresar FRANCES 
+print("")#es para dar un espaciado entre lineasd de texto
+
+d = int(input("ingresa tu calificacion de deportes : "))#es para ingresar DEPORTES 
+print("")#es para dar un espaciado entre lineasd de texto
+
+pro = 8
+C = m+f+p+h+g+i+fran+d #HACE LA SUMA DE LAS CALIFICACIONES
+CF=C/8# HACE LA DIVICION ENTRE LA CANTIDAD DE MATERIAS
+print(nombre, "tu promedio general es", CF)
+
+if CF < 7:#si CF es menor a 7 
+    print(" TU CALIFICACION NO ES APROBATORIO, ESTAS REPROBADO")#imprime lo que le corresponde
+elif CF <= 9 :#si CF es menor a 9
+    print(" TUS CALIFICACION ESTAN BIEN, SIGUE ASI",nombre,)#imprime lo que le corresponde
+elif CF ==10 :#si CF es igual a 10 
+    print("FELICIADES",nombre,"tus calificaciones son perfectas")#imprime lo que le corresponde
+elif CF >10:#si CF es mayor a 10
+    print(nombre, "tus calificaciones no son correctas, revisa o intenta nuevamente")#imprime lo que le corresponde
+else:#para cerrar 
+    print("")#espaciado 
+
+
+if m < 7:#si CF es menor a 7 
+    print(" REPROBASTE MATEMATICAS")#imprime lo que le corresponde
+elif f < 7 :#si CF es menor a 9
+    print(" REPROBASTE FISICA")#imprime lo que le corresponde
+elif p < 7 :#si CF es igual a 10 
+    print("REPROBASTE PROGRAMACION")#imprime lo que le corresponde
+elif h < 7:#si CF es mayor a 10
+    print("REPROBASTE HISTORIA")#imprime lo que le corresponde
+elif g < 7 :#si CF es menor a 9
+    print(" REPROBASTE GEOGRAFIA")#imprime lo que le corresponde
+elif i < 7 :#si CF es igual a 10 
+    print("REPROBASTE INGLES")#imprime lo que le corresponde
+elif fran < 7:#si CF es mayor a 10
+    print("REPROBASTE FRANCES")#imprime lo que le corresponde
+elif d < 7 :#si CF es igual a 10 
+    print("REPROBASTE FRANCES")#imprime lo que le corresponde
+else:#para cerrar 
+    print("FELIIDADES NO REPROBASTE NINGUNA MATERIA")#espaciado 
+
+Cadena="Y ESAS FUERON TUS CALIFICACIONES GRACIAS POR CONFIAR EN NOSOTROS"# nombre del programa
+print(Cadena.center(100))#ES PARA CENTRAR LA CADENA 
+
