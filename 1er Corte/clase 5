@@ -1,0 +1,35 @@
+Cadena="========PROGRAMA QUE IDENTIFICA QUE NUMERO ES IMPAR========"# nombre del programa
+Cadena_1="%%%%%%%%%%%%%%%%%%%%/n2"
+print(Cadena.center(80))
+print(Cadena_1.center(80))#para centrar mi cadena o el nombfre del programa
+print("ejercicio de la clase #5")# imprime el numero de ejercicio y la clase
+nombre=input("hola bienvenido a el ejercucio de la clase 5, podrias indicar cual es tu nombre?") #pregunta cual es el nombre
+print("")
+print("hola",nombre, "podrias escrbir dos numeros diferentes?")#pide que escribas un numer cualquiera 
+print("")#salto de linea
+
+num1 = float(input("Escribe el primer número: "))#pide que escribas el primer numero 
+print("")#salto de linea
+
+num2 = float(input("Escribe el segundo número: "))#pide que escribas el segundo numero
+print("")#salto de linea
+
+if num1.is_integer():#para revisar si el numero es decimal o entero 
+    if num1 % 2 == 0:#compara el residuo y te dice si es par o impar
+        print("El número", num1, "es PAR")#imprime si el numero es par
+    else:
+        print("El número", num1, "es IMPAR")#imprimer en caso de que l numero no sea par
+else:
+    print("El número", num1, "es DECIMAL")#imprime en caso de qyue el numero sea con decimales
+
+if num2.is_integer():#hace lo mismo pero con el segundo numero 
+    if num2 % 2 == 0:
+        print("El número", num2, "es PAR")
+    else:
+        print("El número", num2, "es IMPAR")
+else:
+    print("El número", num2, "es DECIMAL")
+print("")#salto de linea
+
+
+print("gracias",nombre,"por tu preferencia")# imprime un agradecimiento por estar en el codigo 
