@@ -1,0 +1,32 @@
+print("ejercicios clase 4") #imprime el numero del ejercicio 
+
+A=1 #le da un valor a A
+
+while A<=10: #while es una sumatoria de A 
+    A+=1 #es lo que se le va asumar a A 
+    print(A) # imprime el valor de A 
+    if A==4: #condicional if que sucece cuando A llega A 4
+        print("A es igual a 4") #imrprime el texto cuando se cumple el condicional if 
+    if A==7: #condicional if que sucece cuando A llega A 7
+        print("A es igual a 7") ##imrprime el texto cuando se cumple el condicional if
+    if A==10: #condicional if que sucece cuando A llega A 10
+        print("A es igual a 10") ##imrprime el texto cuando se cumple el condicional if
+print("fin") #imrprime el fin 
+
+print("segundo ejercicio de oa calase 4")
+
+nombre=input("hola, como te llamas?")
+
+Num_1=int(input("escribe un numero entero:"))
+Num_2=float(input("escribe un numero no entero:"))
+Num_3=complex(input("escribe un numero complejo:"))
+print("te llamas:",nombre)
+print("el entero es:",Num_1)
+
+
+nombre=input("hola, como te llamas")
+print("hola,",nombre,"escribe un numero")
+Num_1=int(input("escribe un numero entero:"))
+Num_2=float(input("escribe un numero no entero:"))
+Num_3=complex(input("escribe un numero complejo:"))
+print("hola",nombre,"el numero mayor es")
